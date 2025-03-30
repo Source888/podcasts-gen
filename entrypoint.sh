@@ -2,7 +2,7 @@
 
 echo "========================"
 
-git config --global user.name "${GITHAB_AUCTOR}"
+git config --global user.name "${GITHAB_ACTOR}"
 git config --global user.email "${INPUT_EMAIL}"
 git config --global --add safe.directory /github/workspace
 
